@@ -4,11 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "concurrently \"pnpm dev:db\" \"nuxt dev\"",
+    "dev": "nuxt dev",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
-    "dev:db": "turso dev --db-file local.db",
+  
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
